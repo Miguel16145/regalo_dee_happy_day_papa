@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header nav {
+    height: 50px;
+    background: #000;
+}
+header nav ul li{
+    list-style: none;
+    padding-left: 49%;
+     margin-top: 15px;
+    display: inline-block;  
+}
+header nav ul li:hover{
+    transition: calc(0.5s);
+    transform: scale(1.01);
+}
+header nav ul li a{
+    color:white;
+    text-decoration: none;    
+}
+header nav ul li a:hover{
+    color: sandybrown;
+}
+header h1{
+    margin:10px;
+}
+.p{
+    margin:10px;
+}
+button{
+   margin:10px; 
+} 
+h2{
+    margin:10px;
+}
+
+.div{
+display: inline-block;
+border:black 1px solid ;
+margin:50px;
+width:206px;
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  text-align: center;
+ top: 1400px;
+}
+footer p{
+    margin-top: 15px;
+}
+@media screen and (max-width:450px) {
+   footer{
+    position: absolute;
+    top:3945px;
+   } 
+    
+}
+
